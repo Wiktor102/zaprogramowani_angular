@@ -1,0 +1,14 @@
+@import "../../../styles.scss";
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    height: $header-height;
+    background: $color-primary-dark;
+    color: $text-on-primary;
+
+    h1 {
+        font-weight: 400;
+    }
+}
