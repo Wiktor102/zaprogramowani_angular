@@ -1,10 +1,39 @@
 @import "../styles.scss";
 
 .root {
-    min-height: 100vh;
+  min-height: 100vh;
+  justify-content: flex-start;
 }
 
 .main_item {
-    min-height: 100%;
-    background-color: $component-background;
+  min-height: 100%;
+  background-color: $component-background;
+}
+
+
+
+
+.app-body {
+  height: calc(100% - $header-height);
+}
+
+.menu {
+  margin-left: 0;
+  margin-bottom: 0;
+  border-top-right-radius: $standard-border-radius;
+}
+
+.main_data {
+  width: 60%;
+  border-radius: $standard-border-radius;
+}
+
+.news_list {
+  width: 20%;
+  margin-bottom: 0;
+  margin-right: 0;
+  border-top-left-radius: $standard-border-radius;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

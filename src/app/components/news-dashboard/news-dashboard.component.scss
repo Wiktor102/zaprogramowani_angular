@@ -1,0 +1,8 @@
+@import "../../../styles.scss";
+
+.item {
+    min-height: 100px;
+    padding: 5px 10px;
+    background-color: $color-primary-light;
+    border-radius: $standard-border-radius;
+}

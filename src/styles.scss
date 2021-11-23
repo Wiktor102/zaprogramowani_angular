@@ -42,14 +42,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-img {
-  padding: 5px;
-  margin: auto;
-}
-
 .container {
   display: flex;
-//   justify-content: space-between;
+  justify-content: space-between;
 }
 
 .container--vertical {
